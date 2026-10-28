@@ -1,3 +1,11 @@
+# Z3: a Zcash node platform (Fork by @rampop01)
+
+> **Zcash Developer Quest - Documented Modification**
+> **What Was Changed**: Added `scripts/regtest-rpc.sh` - an interactive CLI helper for querying the local Zebra regtest JSON-RPC endpoint.
+> **Why It Was Changed**: Eliminates manual curl/JSON boilerplate when inspecting blocks, chain supply, and node state on regtest by auto-formatting JSON-RPC 2.0 envelopes and pretty-printing responses.
+
+---
+
 # Z3: a Zcash node platform
 
 Z3 runs **Zebra** (full node) and **Zallet** (wallet) together with Docker Compose, on mainnet, testnet, or a local regtest network. An optional **Zaino** indexer adds a lightwalletd-compatible gRPC endpoint behind the `indexer` profile.
